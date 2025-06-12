@@ -10,10 +10,10 @@ import ProfileImage from "./components/ProfileImage"
 function App() {
   return (
     <>
-        <main className="flex flex-row items-center justify-center">
-          <section className="section_business-card w-lg flex flex-col rounded-2xl overflow-hidden border">
+        <main className="flex flex-row items-center justify-center bg-[#1A1B21]">
+          <section className="section_business-card w-lg flex flex-col rounded-2xl overflow-hidden">
             <ProfileImage image="./src/assets/elon.jpg" alt="Elon Musk"/>
-            <div className="business-card_content flex flex-col items-center px-4 py-10">
+            <div className="business-card_content flex flex-col items-center px-4">
               <Name name="Anthony Holiday" />
               <Position role="Frontend Engineer & Webflow Developer"/>
               <a href="https://dev.anthony.holiday">dev.anthony.holiday</a>
@@ -32,7 +32,7 @@ function App() {
                 />
               </div>
             </div>
-            <div className="business-card_socials flex gap-4 justify-center items-center py-8 bg-slate-900">
+            <div className="business-card_socials flex gap-4 justify-center items-center py-8 bg-[#161619]">
               <SocialIcon icon="./src/assets/linkedin.svg" url="https://www.linkedin.com/in/anthony-holiday/"/>
               <SocialIcon icon="./src/assets/github.svg"/>
               <SocialIcon icon="./src/assets/webflow.svg"/>
