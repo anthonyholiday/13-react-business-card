@@ -10,7 +10,7 @@ import ProfileImage from "./components/ProfileImage"
 function App() {
   return (
     <>
-        <main className="flex flex-row items-center justify-center bg-[#1A1B21]">
+        <main className="flex flex-row items-center justify-center bg-[#1A1B21] rounded-2xl">
           <section className="section_business-card w-lg flex flex-col rounded-2xl overflow-hidden">
             <ProfileImage image="./src/assets/elon.jpg" alt="Elon Musk"/>
             <div className="business-card_content flex flex-col items-center px-4">
