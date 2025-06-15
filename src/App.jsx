@@ -12,7 +12,7 @@ function App() {
     <>
         <main className="flex flex-row items-center justify-center bg-[#1A1B21] rounded-2xl">
           <section className="section_business-card w-lg flex flex-col rounded-2xl overflow-hidden">
-            <ProfileImage image="./public/anthony-hiking.JPEG" alt="Anthony Holiday hiking"/>
+            <ProfileImage image="/anthony-hiking.JPEG" alt="Anthony Holiday hiking"/>
             <div className="business-card_content flex flex-col items-center p-4">
               <Name name="Anthony Holiday" />
               <Position role="Frontend Engineer & Webflow Developer" color="text-orange-300"/>
@@ -33,9 +33,9 @@ function App() {
               </div>
             </div>
             <div className="business-card_socials flex gap-4 justify-center items-center py-8 bg-[#161619]">
-              <SocialIcon icon="./public/linkedin.svg" url="https://www.linkedin.com/in/anthony-holiday/"/>
-              <SocialIcon icon="./public/github.svg" url="https://github.com/anthonyholiday"/>
-              <SocialIcon icon="./public/webflow.svg" url="https://webflow.com/@sitkadesign"/>
+              <SocialIcon icon="/linkedin.svg" url="https://www.linkedin.com/in/anthony-holiday/"/>
+              <SocialIcon icon="/github.svg" url="https://github.com/anthonyholiday"/>
+              <SocialIcon icon="/webflow.svg" url="https://webflow.com/@sitkadesign"/>
             </div>
           </section>
         </main>
