@@ -12,7 +12,7 @@ function App() {
     <>
         <main className="flex flex-row items-center justify-center bg-[#1A1B21] rounded-2xl">
           <section className="section_business-card w-lg flex flex-col rounded-2xl overflow-hidden">
-            <ProfileImage image="./src/assets/anthony-hiking.jpeg" alt="Elon Musk"/>
+            <ProfileImage image="./public/anthony-hiking.JPEG" alt="Anthony Holiday hiking"/>
             <div className="business-card_content flex flex-col items-center p-4">
               <Name name="Anthony Holiday" />
               <Position role="Frontend Engineer & Webflow Developer" color="text-orange-300"/>
@@ -28,14 +28,14 @@ function App() {
                   />
                 <InfoBlock
                   heading="Interests"
-                  paragraph="I've been to 26 countries (and counting), I love to eat spicy foods, and am always trying to learn something new both on and offline. In a past life life I managed a Michelin Star restaurant and also produced pop music"
+                  paragraph="I've been to 26 countries (and counting), I love to eat spicy foods, and am always trying to learn something new both on and offline. In a past life life I managed a Michelin Star restaurant and also produced pop music."
                 />
               </div>
             </div>
             <div className="business-card_socials flex gap-4 justify-center items-center py-8 bg-[#161619]">
-              <SocialIcon icon="./src/assets/linkedin.svg" url="https://www.linkedin.com/in/anthony-holiday/"/>
-              <SocialIcon icon="./src/assets/github.svg" url="https://github.com/anthonyholiday"/>
-              <SocialIcon icon="./src/assets/webflow.svg" url="https://webflow.com/@sitkadesign"/>
+              <SocialIcon icon="./public/linkedin.svg" url="https://www.linkedin.com/in/anthony-holiday/"/>
+              <SocialIcon icon="./public/github.svg" url="https://github.com/anthonyholiday"/>
+              <SocialIcon icon="./public/webflow.svg" url="https://webflow.com/@sitkadesign"/>
             </div>
           </section>
         </main>
