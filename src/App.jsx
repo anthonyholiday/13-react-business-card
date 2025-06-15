@@ -18,7 +18,7 @@ function App() {
               <Position role="Frontend Engineer & Webflow Developer" color="text-orange-300"/>
               <a className="transition ease-in hover:text-white" href="https://dev.anthony.holiday">dev.anthony.holiday</a>
               <div className="flex gap-4 justify-between w-full py-4">
-                <ContactButton text="Email" url=""/>
+                <ContactButton text="Email" url="mailto:anthony.markin@gmail.com"/>
                 <ContactButton text="LinkedIn" url="https://www.linkedin.com/in/anthony-holiday/"/>
               </div>
               <div className="content_about flex flex-col gap-4 py-4">
