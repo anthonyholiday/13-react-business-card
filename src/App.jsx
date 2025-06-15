@@ -24,11 +24,11 @@ function App() {
               <div className="content_about flex flex-col gap-4">
                 <InfoBlock
                   heading="About"
-                  paragraph="Here's a little about me Here's a little about me Here's a little about me Here's a little about me Here's a little about me Here's a little about me Here's a little about me Here's a little about me"
+                  paragraph="I'm a Frontend Developer from western Canada building websites in Webflow and exploring the world. I enjoy working with React, Javascript, and am currently learning Next.js"
                   />
                 <InfoBlock
                   heading="Interests"
-                  paragraph="Here's some of my interests Here's some of my interests Here's some of my interests Here's some of my interests Here's some of my interests Here's some of my interests Here's some of my interests "
+                  paragraph="I've been to 26 countries (and counting), I love to eat spicy foods, and am always trying to learn something new both on and offline. In a past life life I managed a Michelin Star restaurant and also produced pop music"
                 />
               </div>
             </div>
